@@ -1,0 +1,1 @@
+# modelando-dominio-rico-asp.net.core

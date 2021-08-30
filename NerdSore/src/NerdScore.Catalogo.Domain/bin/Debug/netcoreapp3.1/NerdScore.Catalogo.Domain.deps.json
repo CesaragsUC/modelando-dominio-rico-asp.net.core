@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NerdScore.Catalogo.Domain/1.0.0": {
+        "runtime": {
+          "NerdScore.Catalogo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NerdScore.Catalogo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -7,3 +7,7 @@ L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.C
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdScore.Catalogo.Domain.csproj.CoreCompileInputs.cache
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdScore.Catalogo.Domain.dll
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdScore.Catalogo.Domain.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Catalogo.Domain\bin\Debug\netcoreapp3.1\NerdScore.Core.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Catalogo.Domain\bin\Debug\netcoreapp3.1\NerdScore.Core.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdScore.Catalogo.Domain.csproj.AssemblyReference.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Catalogo.Domain\obj\Debug\netcoreapp3.1\NerdScore.Catalogo.Domain.csproj.CopyComplete

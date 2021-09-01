@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NerdStore.Catalogo.Domain.Tests
+build_property.ProjectDir = L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\tests\NerdStore.Catalogo.Domain.Tests\

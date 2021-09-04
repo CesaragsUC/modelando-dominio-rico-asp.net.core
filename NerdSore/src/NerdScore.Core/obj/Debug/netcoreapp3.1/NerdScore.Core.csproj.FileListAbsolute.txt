@@ -1,7 +1,6 @@
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Core\bin\Debug\netcoreapp3.1\NerdScore.Core.deps.json
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Core\bin\Debug\netcoreapp3.1\NerdScore.Core.dll
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Core\bin\Debug\netcoreapp3.1\NerdScore.Core.pdb
-L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Core\obj\Debug\netcoreapp3.1\NerdScore.Core.csproj.AssemblyReference.cache
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Core\obj\Debug\netcoreapp3.1\NerdScore.Core.GeneratedMSBuildEditorConfig.editorconfig
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Core\obj\Debug\netcoreapp3.1\NerdScore.Core.AssemblyInfoInputs.cache
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdScore.Core\obj\Debug\netcoreapp3.1\NerdScore.Core.AssemblyInfo.cs

@@ -1,0 +1,17 @@
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.deps.json
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdScore.Catalogo.Domain.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdScore.Core.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdScore.Catalogo.Domain.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\bin\Debug\netcoreapp3.1\NerdScore.Core.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.csproj.AssemblyReference.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.GeneratedMSBuildEditorConfig.editorconfig
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.AssemblyInfoInputs.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.AssemblyInfo.cs
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.csproj.CoreCompileInputs.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Application.csproj.CopyComplete

@@ -13,7 +13,7 @@ namespace NerdStore.Catalogo.Application.Services
 
         Task AdicionarCategoria(CategoriaViewModel categoriaViewModel);
         Task AtualizarCategoria(CategoriaViewModel categoriaViewModel);
-        Task RemoverCategoria(CategoriaViewModel categoriaViewModel);
+        Task RemoverCategoria(Guid id);
 
     }
 }

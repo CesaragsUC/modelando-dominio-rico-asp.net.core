@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using NerdScore.Catalogo.Domain;
+using NerdScore.Catalogo.Domain.Interfaces;
+using NerdScore.Core.DomainObjects;
 using NerdStore.Catalogo.Application.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -12,11 +14,15 @@ namespace NerdStore.Catalogo.Application.Services
     {
 
         private readonly ICategoriaRepository _categoriaRepository;
+        private readonly ICategoriaService _categoriaService;
         private readonly IMapper _mapper;
 
-        public CategoriaAppService(ICategoriaRepository categoriaRepository, IMapper mapper)
+        public CategoriaAppService(ICategoriaRepository categoriaRepository,
+            IMapper mapper,
+            ICategoriaService categoriaService)
         {
             _categoriaRepository = categoriaRepository;
+            _categoriaService = categoriaService;
             _mapper = mapper;   
         }
 
@@ -37,12 +43,12 @@ namespace NerdStore.Catalogo.Application.Services
             await _categoriaRepository.UnitOfWork.Commit();
         }
 
-        public async Task RemoverCategoria(CategoriaViewModel categoriaViewModel)
+        public async Task RemoverCategoria(Guid id)
         {
-            var categoria = _mapper.Map<Categoria>(categoriaViewModel);
-            _categoriaRepository.Remover(categoria);
+            var categoria = await _categoriaRepository.ObterPorId(id);
+            if (categoria == null) throw new DomainException("Falha ao deletar categoria. Categoria não encontrada."); ;
 
-            await _categoriaRepository.UnitOfWork.Commit();
+             await  _categoriaService.DeletarCategoria(id);
         }
         
         public void Dispose()

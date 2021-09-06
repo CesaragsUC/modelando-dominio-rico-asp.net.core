@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NerdStore.Catalogo.Application.Services;
 using NerdStore.Catalogo.Application.ViewModels;
 using System;
@@ -42,6 +43,7 @@ namespace Presentation.Controllers.Admin
         }
 
         [Route("atualizar-categoria")]
+        //[Authorize("Admin")] somente admin pode atualizar
         public async Task<IActionResult> AtualizarCategoria(Guid id)
         {
             return View(await _categoriaAppService.ObterPorId(id));
@@ -68,9 +70,9 @@ namespace Presentation.Controllers.Admin
         [Route("remover-categoria")]
         public async Task<IActionResult> RemoverCategoria(CategoriaViewModel categoriaViewModel)
         {
-            if (!ModelState.IsValid) return View(categoriaViewModel);
+            if(categoriaViewModel.Id == Guid.Empty) return View();
 
-            await _categoriaAppService.RemoverCategoria(categoriaViewModel);
+            await _categoriaAppService.RemoverCategoria(categoriaViewModel.Id);
             return RedirectToAction("Index");
         }
     }

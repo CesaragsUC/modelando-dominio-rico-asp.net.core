@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BFoUDmUg5t2DzFtpNc5cY2ddLJOPg0ckw7fbWO6OH2mtc8InbHkhgLFCQ3i3V+BenPpkf73/KNQcVX6xuXIjmw==",
+  "dgSpecHash": "npfg41c96qv6CJFtVReOquvRoTxt64OSf2B4D5EKCaiY3lkRtv2p/dNJlV+t/vP4EI8cqSOi8IUPkauYNG06dg==",
   "success": true,
   "projectFilePath": "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cesar\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\cesar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\cesar\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\cesar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cesar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\cesar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

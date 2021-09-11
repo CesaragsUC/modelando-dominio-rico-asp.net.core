@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "k5PwQvxyfl+O6pGqbeP4Eu2e/ZEWb5fymsVSbrZdnEDkeJC9zYLo/nn8m2SOLUqOsDeYscRiGl35ngZiyGWiuw==",
+  "dgSpecHash": "YNR8picltWVu7Ir0sQJrQTGDaaxArIuHSDeDneRmj0no2an+WhrjeaaOBx3BOo9muN4MaRjvEaG24j00PUyJdg==",
   "success": true,
   "projectFilePath": "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdScore.Core\\NerdScore.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cesar\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\cesar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
   ],
   "logs": []

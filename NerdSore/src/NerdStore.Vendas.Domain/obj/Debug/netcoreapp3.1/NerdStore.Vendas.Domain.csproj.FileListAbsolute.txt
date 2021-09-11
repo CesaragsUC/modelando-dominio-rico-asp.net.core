@@ -1,0 +1,13 @@
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.deps.json
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdScore.Core.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdScore.Core.pdb
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.AssemblyReference.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.AssemblyInfoInputs.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.AssemblyInfo.cs
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.CoreCompileInputs.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.CopyComplete
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb

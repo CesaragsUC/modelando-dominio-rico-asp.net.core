@@ -50,5 +50,10 @@ namespace NerdStore.Catalogo.Data
 
             return await base.SaveChangesAsync() > 0;
         }
+
+        public async Task RollBack()
+        {
+            await base.DisposeAsync();  
+        }
     }
 }

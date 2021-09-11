@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NerdScore.Core\NerdScore.Core.csproj" />
+    <ProjectReference Include="..\NerdStore.Vendas.Domain\NerdStore.Vendas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

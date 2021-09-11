@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NerdStore.Catalogo.Application.Mapper;
 using NerdStore.Catalogo.Data;
+using NerdStore.Vendas.Data;
 using Presentation.Data;
 using Presentation.Setup;
 using System;
@@ -36,6 +37,9 @@ namespace Presentation
                     Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddDbContext<CatalogoContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<VendasContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)

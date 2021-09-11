@@ -1,0 +1,160 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FluentValidation/10.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        }
+      },
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "NerdScore.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FluentValidation": "10.3.3",
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdScore.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdScore.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentValidation/10.3.3": {
+      "sha512": "sgRC+7q4mnmDHE9ehk2cvb+FDTy/gtw5iBoKFY3FVp1ZwFsLS0kIcdSpNlCO3XyyNIzZI2ca8I/YiFG9pM6x0Q==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.3.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "NerdScore.Core/1.0.0": {
+      "type": "project",
+      "path": "../NerdScore.Core/NerdScore.Core.csproj",
+      "msbuildProject": "../NerdScore.Core/NerdScore.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "FluentValidation >= 10.3.3",
+      "NerdScore.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\cesar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+      "projectName": "NerdStore.Vendas.Domain",
+      "projectPath": "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+      "outputPath": "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdStore.Vendas.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdScore.Core\\NerdScore.Core.csproj": {
+              "projectPath": "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdScore.Core\\NerdScore.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[10.3.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

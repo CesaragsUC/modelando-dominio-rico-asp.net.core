@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FJVMvswnXybW9ot33wAxGsNA0JRXjoB/44yRi8a8PHdId8swaf/6u64pXBBz8BD5jaBb4ByzB5mQ1jSiV36bIg==",
+  "success": true,
+  "projectFilePath": "L:\\Projetos ASP.NET\\modelando-dominio-rico-asp.net.core\\NerdSore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cesar\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\cesar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -27,7 +27,7 @@ using Presentation.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c763d166c44769db6e800ba673068494877556a1", @"/Views/AdminProdutos/Estoque.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aca7828e27a152be4cd8b1f2c1fa15ad084747ea", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b0c6be8b1fa9081ddb330294207295779a72644", @"/Views/_ViewImports.cshtml")]
     public class Views_AdminProdutos_Estoque : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<NerdStore.Catalogo.Application.ViewModels.ProdutoViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("width", new global::Microsoft.AspNetCore.Html.HtmlString("400"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -80,7 +80,7 @@ using Presentation.Models;
             BeginAddHtmlAttributeValues(__tagHelperExecutionContext, "src", 2, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
             AddHtmlAttributeValue("", 257, "~/Images/", 257, 9, true);
 #nullable restore
-#line 9 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
+#line (9,57)-(9,70) 31 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
 AddHtmlAttributeValue("", 266, Model.Imagem, 266, 13, false);
 
 #line default
@@ -96,42 +96,42 @@ AddHtmlAttributeValue("", 266, Model.Imagem, 266, 13, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </div>\r\n        <div class=\"col-xs-5\" style=\"border:20px solid white\">\r\n            <h3>");
 #nullable restore
-#line 12 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
-           Write(Model.Nome);
+#line (12,18)-(12,28) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
+Write(Model.Nome);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</h3>\r\n\r\n            <h6 class=\"title-price\"><small>OFERTA</small></h6>\r\n            <h3 style=\"margin-top:0px;\">");
 #nullable restore
-#line 15 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
-                                   Write(Model.Valor.ToString("C"));
+#line (15,42)-(15,67) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
+Write(Model.Valor.ToString("C"));
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</h3>\r\n\r\n            <p>Apenas ");
 #nullable restore
-#line 17 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
-                 Write(Model.QuantidadeEstoque);
+#line (17,24)-(17,47) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
+Write(Model.QuantidadeEstoque);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral(" em estoque!</p>\r\n            <p>");
 #nullable restore
-#line 18 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
-          Write(Model.Descricao);
+#line (18,17)-(18,32) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
+Write(Model.Descricao);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n\r\n            <div class=\"section\" style=\"padding-bottom:20px;\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c763d166c44769db6e800ba673068494877556a18703", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c763d166c44769db6e800ba673068494877556a18705", async() => {
                 WriteLiteral("\r\n                    <input type=\"hidden\" id=\"Id\" name=\"Id\"");
                 BeginWriteAttribute("value", " value=\"", 864, "\"", 881, 1);
 #nullable restore
-#line 22 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
+#line (22,67)-(22,76) 29 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Estoque.cshtml"
 WriteAttributeValue("", 872, Model.Id, 872, 9, false);
 
 #line default

@@ -27,7 +27,7 @@ using Presentation.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2fde7059117356cb4385e42d048361c229d2df52", @"/Views/Categoria/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aca7828e27a152be4cd8b1f2c1fa15ad084747ea", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b0c6be8b1fa9081ddb330294207295779a72644", @"/Views/_ViewImports.cshtml")]
     public class Views_Categoria_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<NerdStore.Catalogo.Application.ViewModels.CategoriaViewModel>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Categoria", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -100,14 +100,14 @@ using Presentation.Models;
 #nullable disable
             WriteLiteral("                <ul class=\"list-group\">\r\n                    <li class=\"list-group-item d-flex justify-content-between align-items-center\">\r\n                        ");
 #nullable restore
-#line 21 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\Index.cshtml"
-                   Write(categoria.Nome);
+#line (21,26)-(21,40) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\Index.cshtml"
+Write(categoria.Nome);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("\r\n                        <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n                          ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fde7059117356cb4385e42d048361c229d2df527922", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fde7059117356cb4385e42d048361c229d2df527918", async() => {
                 WriteLiteral("Editar");
             }
             );
@@ -123,8 +123,8 @@ using Presentation.Models;
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 23 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\Index.cshtml"
-                                                                                          WriteLiteral(categoria.Id);
+#line (23,104)-(23,116) 13 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\Index.cshtml"
+WriteLiteral(categoria.Id);
 
 #line default
 #line hidden
@@ -141,7 +141,7 @@ using Presentation.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" &nbsp;\r\n                          ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fde7059117356cb4385e42d048361c229d2df5210480", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fde7059117356cb4385e42d048361c229d2df5210404", async() => {
                 WriteLiteral("Remover");
             }
             );
@@ -157,8 +157,8 @@ using Presentation.Models;
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 24 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\Index.cshtml"
-                                                                                        WriteLiteral(categoria.Id);
+#line (24,102)-(24,114) 13 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\Index.cshtml"
+WriteLiteral(categoria.Id);
 
 #line default
 #line hidden

@@ -27,7 +27,7 @@ using Presentation.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7ae435618a46217f33b96d1f22194f10fe482f75", @"/Views/Categoria/RemoverCategoria.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aca7828e27a152be4cd8b1f2c1fa15ad084747ea", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b0c6be8b1fa9081ddb330294207295779a72644", @"/Views/_ViewImports.cshtml")]
     public class Views_Categoria_RemoverCategoria : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<NerdStore.Catalogo.Application.ViewModels.CategoriaViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -121,32 +121,32 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n\r\n            <div class=\"form-group\">\r\n                <dt class=\"col-sm-2\">\r\n                    ");
 #nullable restore
-#line 18 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
-               Write(Html.DisplayNameFor(model => model.Nome));
+#line (18,22)-(18,62) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
+Write(Html.DisplayNameFor(model => model.Nome));
 
 #line default
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n                </dt>\r\n                <dd class=\"col-sm-10\">\r\n                    ");
 #nullable restore
-#line 21 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
-               Write(Html.DisplayFor(model => model.Nome));
+#line (21,22)-(21,58) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
+Write(Html.DisplayFor(model => model.Nome));
 
 #line default
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n                </dd>\r\n            </div>\r\n            <div class=\"form-group\">\r\n                <dt class=\"col-sm-2\">\r\n                    ");
 #nullable restore
-#line 26 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
-               Write(Html.DisplayNameFor(model => model.Codigo));
+#line (26,22)-(26,64) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
+Write(Html.DisplayNameFor(model => model.Codigo));
 
 #line default
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n                </dt>\r\n                <dd class=\"col-sm-10\">\r\n                    ");
 #nullable restore
-#line 29 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
-               Write(Html.DisplayFor(model => model.Codigo));
+#line (29,22)-(29,60) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Categoria\RemoverCategoria.cshtml"
+Write(Html.DisplayFor(model => model.Codigo));
 
 #line default
 #line hidden

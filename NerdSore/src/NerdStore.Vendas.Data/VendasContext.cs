@@ -1,12 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NerdScore.Core.Bus;
+using NerdScore.Core.Communication.Mediator;
 using NerdScore.Core.Data;
-using NerdScore.Core.Messages;
 using NerdStore.Vendas.Domain;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NerdStore.Vendas.Data

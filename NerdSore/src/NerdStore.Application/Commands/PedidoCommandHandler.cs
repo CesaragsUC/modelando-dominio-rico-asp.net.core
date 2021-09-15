@@ -1,12 +1,10 @@
 ﻿using MediatR;
-using NerdScore.Core.Bus;
+using NerdScore.Core.Communication.Mediator;
 using NerdScore.Core.Messages;
+using NerdScore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Application;
 using NerdStore.Vendas.Domain;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -65,7 +63,7 @@ namespace NerdStore.Vendas.Application.Commands
 
             foreach (var error in message.ValidationResult.Errors)
             {
-               // _mediatorHandler.PublicarNotificacao(new DomainNotification(message.MessageType, error.ErrorMessage));
+                _mediatorHandler.PublicarNotificacao(new DomainNotification(message.MessageType, error.ErrorMessage));
             }
 
             return false;

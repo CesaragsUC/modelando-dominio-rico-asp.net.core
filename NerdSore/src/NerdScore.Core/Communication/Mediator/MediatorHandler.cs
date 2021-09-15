@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using NerdScore.Core.Messages;
+using NerdScore.Core.Messages.CommonMessages.Notifications;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -26,9 +27,9 @@ namespace NerdScore.Core.Communication.Mediator
             await _mediator.Publish(evento);
         }
 
-        //public async Task PublicarNotificacao<T>(T notificacao) where T : DomainNotification
-        //{
-        //    await _mediator.Publish(notificacao);
-        //}
+        public async Task PublicarNotificacao<T>(T notificacao) where T : DomainNotification
+        {
+            await _mediator.Publish(notificacao);
+        }
     }
 }

@@ -27,7 +27,7 @@ using Presentation.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"87815c9b2d7922fa84bf3993efca34f7ffcb9cdc", @"/Views/Vitrine/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aca7828e27a152be4cd8b1f2c1fa15ad084747ea", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b0c6be8b1fa9081ddb330294207295779a72644", @"/Views/_ViewImports.cshtml")]
     public class Views_Vitrine_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<NerdStore.Catalogo.Application.ViewModels.ProdutoViewModel>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("width", new global::Microsoft.AspNetCore.Html.HtmlString("200"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -154,7 +154,7 @@ using Presentation.Models;
                 BeginAddHtmlAttributeValues(__tagHelperExecutionContext, "src", 2, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 AddHtmlAttributeValue("", 1554, "~/Images/", 1554, 9, true);
 #nullable restore
-#line 74 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
+#line (74,148)-(74,163) 32 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
 AddHtmlAttributeValue("", 1563, produto.Imagem, 1563, 15, false);
 
 #line default
@@ -182,8 +182,8 @@ AddHtmlAttributeValue("", 1563, produto.Imagem, 1563, 15, false);
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 74 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
-                                                                              WriteLiteral(produto.Id);
+#line (74,92)-(74,102) 13 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
+WriteLiteral(produto.Id);
 
 #line default
 #line hidden
@@ -200,32 +200,32 @@ AddHtmlAttributeValue("", 1563, produto.Imagem, 1563, 15, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <h4>");
 #nullable restore
-#line 75 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
-                   Write(produto.Nome);
+#line (75,26)-(75,38) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
+Write(produto.Nome);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</h4>\r\n                    <p>Apenas ");
 #nullable restore
-#line 76 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
-                         Write(produto.QuantidadeEstoque);
+#line (76,32)-(76,57) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
+Write(produto.QuantidadeEstoque);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral(" em estoque!</p>\r\n                    <p>");
 #nullable restore
-#line 77 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
-                  Write(produto.Descricao);
+#line (77,25)-(77,42) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
+Write(produto.Descricao);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n                    <hr class=\"line\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-6 col-sm-6\">\r\n                            <p class=\"price\">");
 #nullable restore
-#line 81 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
-                                        Write(produto.Valor.ToString("C"));
+#line (81,47)-(81,74) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\Vitrine\Index.cshtml"
+Write(produto.Valor.ToString("C"));
 
 #line default
 #line hidden

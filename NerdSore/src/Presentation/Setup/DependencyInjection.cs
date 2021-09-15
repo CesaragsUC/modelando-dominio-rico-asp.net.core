@@ -4,7 +4,8 @@ using NerdScore.Catalogo.Domain;
 using NerdScore.Catalogo.Domain.Events;
 using NerdScore.Catalogo.Domain.Interfaces;
 using NerdScore.Catalogo.Domain.Service;
-using NerdScore.Core.Bus;
+using NerdScore.Core.Communication.Mediator;
+using NerdScore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Application;
 using NerdStore.Catalogo.Application.Services;
 using NerdStore.Catalogo.Data;
@@ -13,10 +14,6 @@ using NerdStore.Vendas.Application.Commands;
 using NerdStore.Vendas.Data;
 using NerdStore.Vendas.Data.Repository;
 using NerdStore.Vendas.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Presentation.Setup
 {
@@ -24,8 +21,11 @@ namespace Presentation.Setup
     {
         public static void RegisterServices(this IServiceCollection services)
         {
-            // Domain Bus (Mediator)
+            // Mediator
             services.AddScoped<IMediatorHandler, MediatorHandler>();
+
+            // Notifications
+            services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
 
             // Catalogo Context
 

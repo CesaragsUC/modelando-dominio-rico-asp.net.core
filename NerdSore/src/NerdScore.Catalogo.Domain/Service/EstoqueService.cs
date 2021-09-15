@@ -1,9 +1,6 @@
 ﻿using NerdScore.Catalogo.Domain.Events;
-using NerdScore.Core;
-using NerdScore.Core.Bus;
+using NerdScore.Core.Communication.Mediator;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NerdScore.Catalogo.Domain

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.DomainObjects
+namespace NerdScore.Core.Messages.CommonMessages.DomainEvents
 {
     public class DomainEvents :Event
     {

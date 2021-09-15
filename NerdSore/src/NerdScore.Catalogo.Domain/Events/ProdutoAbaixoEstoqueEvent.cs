@@ -1,4 +1,5 @@
 ﻿using NerdScore.Core.DomainObjects;
+using NerdScore.Core.Messages.CommonMessages.DomainEvents;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -27,7 +27,7 @@ using Presentation.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f249025f11094274a9522fbbfc9fc3823d12f807", @"/Views/AdminProdutos/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aca7828e27a152be4cd8b1f2c1fa15ad084747ea", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b0c6be8b1fa9081ddb330294207295779a72644", @"/Views/_ViewImports.cshtml")]
     public class Views_AdminProdutos_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<NerdStore.Catalogo.Application.ViewModels.ProdutoViewModel>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "AdminProdutos", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -175,7 +175,7 @@ using Presentation.Models;
             BeginAddHtmlAttributeValues(__tagHelperExecutionContext, "src", 2, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
             AddHtmlAttributeValue("", 1645, "~/Images/", 1645, 9, true);
 #nullable restore
-#line 78 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
+#line (78,65)-(78,80) 32 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
 AddHtmlAttributeValue("", 1654, produto.Imagem, 1654, 15, false);
 
 #line default
@@ -191,38 +191,38 @@ AddHtmlAttributeValue("", 1654, produto.Imagem, 1654, 15, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <h4>");
 #nullable restore
-#line 79 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
-                   Write(produto.Nome);
+#line (79,26)-(79,38) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
+Write(produto.Nome);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</h4>\r\n                    <p>");
 #nullable restore
-#line 80 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
-                  Write(produto.QuantidadeEstoque);
+#line (80,25)-(80,50) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
+Write(produto.QuantidadeEstoque);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral(" em estoque</p>\r\n                    <p>");
 #nullable restore
-#line 81 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
-                  Write(produto.Descricao);
+#line (81,25)-(81,42) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
+Write(produto.Descricao);
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n                    <p class=\"price\">");
 #nullable restore
-#line 82 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
-                                Write(produto.Valor.ToString("C"));
+#line (82,39)-(82,66) 6 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
+Write(produto.Valor.ToString("C"));
 
 #line default
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n                    <hr class=\"line\">\r\n                    <div class=\"row\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f249025f11094274a9522fbbfc9fc3823d12f80712500", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f249025f11094274a9522fbbfc9fc3823d12f80712489", async() => {
                 WriteLiteral("Editar");
             }
             );
@@ -238,8 +238,8 @@ AddHtmlAttributeValue("", 1654, produto.Imagem, 1654, 15, false);
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 85 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
-                                                                                          WriteLiteral(produto.Id);
+#line (85,104)-(85,114) 13 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
+WriteLiteral(produto.Id);
 
 #line default
 #line hidden
@@ -256,7 +256,7 @@ AddHtmlAttributeValue("", 1654, produto.Imagem, 1654, 15, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" &nbsp;\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f249025f11094274a9522fbbfc9fc3823d12f80715059", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f249025f11094274a9522fbbfc9fc3823d12f80714976", async() => {
                 WriteLiteral("Estoque");
             }
             );
@@ -272,8 +272,8 @@ AddHtmlAttributeValue("", 1654, produto.Imagem, 1654, 15, false);
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 86 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
-                                                                                          WriteLiteral(produto.Id);
+#line (86,104)-(86,114) 13 "L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\Views\AdminProdutos\Index.cshtml"
+WriteLiteral(produto.Id);
 
 #line default
 #line hidden

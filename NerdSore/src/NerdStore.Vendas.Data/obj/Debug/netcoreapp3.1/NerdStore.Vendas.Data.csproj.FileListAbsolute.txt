@@ -15,3 +15,4 @@ L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.V
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp3.1\NerdScore.Core.pdb
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.genruntimeconfig.cache
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Data.csproj.CopyComplete

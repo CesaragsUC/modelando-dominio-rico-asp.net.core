@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NerdScore.Catalogo.Domain;
 using NerdScore.Core.Data;
+using NerdScore.Core.Messages;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,6 +26,7 @@ namespace NerdStore.Catalogo.Data
                     .Where(p => p.ClrType == typeof(string))))
                 property.SetColumnType("varchar(100)");
 
+            modelBuilder.Ignore<Event>();
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
 
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;

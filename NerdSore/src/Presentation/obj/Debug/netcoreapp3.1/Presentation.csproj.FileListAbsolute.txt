@@ -195,3 +195,6 @@ L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentatio
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Data.pdb
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\bin\Debug\netcoreapp3.1\Humanizer.dll
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Carrinho\Index.cshtml.g.cs
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Carrinho\ResumoDaCompra.cshtml.g.cs
+L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs

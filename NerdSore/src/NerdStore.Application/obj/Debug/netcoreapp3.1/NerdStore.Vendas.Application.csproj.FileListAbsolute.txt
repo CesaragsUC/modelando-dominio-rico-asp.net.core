@@ -8,7 +8,6 @@ L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.A
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Application\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Application.AssemblyInfoInputs.cache
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Application\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Application.AssemblyInfo.cs
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Application\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Application.csproj.CoreCompileInputs.cache
-L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Application\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Application.csproj.CopyComplete
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Application\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Application.dll
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Application\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Application.pdb
 L:\Projetos ASP.NET\modelando-dominio-rico-asp.net.core\NerdSore\src\NerdStore.Application\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll

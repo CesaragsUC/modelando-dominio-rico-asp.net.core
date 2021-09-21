@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NerdScore.Core.Communication.Mediator;
 using NerdScore.Core.Data;
+using NerdScore.Core.Messages;
 using NerdStore.Vendas.Domain;
 using System;
 using System.Linq;
@@ -25,6 +26,8 @@ namespace NerdStore.Vendas.Data
                 .SelectMany(e => e.GetProperties()
                     .Where(p => p.ClrType == typeof(string))))
                 property.SetColumnType("varchar(100)");
+
+            modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(VendasContext).Assembly);
 
@@ -52,7 +55,7 @@ namespace NerdStore.Vendas.Data
             }
 
             var sucesso =  await base.SaveChangesAsync() > 0;
-           // if (sucesso) await _mediatorHandler.PublicarEventos(this);
+            if (sucesso) await _mediatorHandler.PublicarEventos(this);
             return sucesso; 
         }
 

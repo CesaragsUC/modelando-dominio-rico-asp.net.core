@@ -1,4 +1,5 @@
 ﻿using NerdScore.Core.Messages;
+using NerdScore.Core.Messages.CommonMessages.DomainEvents;
 using NerdScore.Core.Messages.CommonMessages.Notifications;
 using System.Threading.Tasks;
 
@@ -10,5 +11,7 @@ namespace NerdScore.Core.Communication.Mediator
         Task<bool> EnviarComando<T>(T comando) where T : Command;
 
         Task PublicarNotificacao<T>(T notificacao) where T : DomainNotification;
+
+        Task PublicarDomainEvent<T>(T notificacao) where T : DomainEvents;
     }
 }

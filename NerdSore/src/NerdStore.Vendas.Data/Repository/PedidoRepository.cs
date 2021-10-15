@@ -92,5 +92,10 @@ namespace NerdStore.Vendas.Data.Repository
         {
             _context.Dispose();
         }
+
+        public void AtualizarQuantidadeVoucher(Voucher voucher)
+        {
+            _context.Vouchers.Update(voucher);   
+        }
     }
 }

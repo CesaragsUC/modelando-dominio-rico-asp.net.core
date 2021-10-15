@@ -1,8 +1,6 @@
 ﻿using FluentValidation.Results;
 using MediatR;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace NerdScore.Core.Messages
 {

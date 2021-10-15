@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using NerdScore.Core.Messages;
+using NerdScore.Core.Messages.CommonMessages.DomainEvents;
 using NerdScore.Core.Messages.CommonMessages.Notifications;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,11 @@ namespace NerdScore.Core.Communication.Mediator
         public async Task<bool> EnviarComando<T>(T comando) where T : Command
         {
             return await _mediator.Send(comando);
+        }
+
+        public async Task PublicarDomainEvent<T>(T notificacao) where T : DomainEvents
+        {
+            await _mediator.Publish(notificacao);
         }
 
         public async Task PublicarEvento<T>(T evento) where T : Event

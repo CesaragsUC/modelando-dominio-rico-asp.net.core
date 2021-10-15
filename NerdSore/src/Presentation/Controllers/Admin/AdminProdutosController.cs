@@ -56,6 +56,8 @@ namespace Presentation.Controllers.Admin
             var produto = await _produtoAppService.ObterPorId(id);
             produtoViewModel.QuantidadeEstoque = produto.QuantidadeEstoque;
 
+
+            //nao queremeos validar o campo QuantidadeEstoque, então removemos ele do modelstate
             ModelState.Remove("QuantidadeEstoque");
             if (!ModelState.IsValid) return View(await PopularCategorias(produtoViewModel));
 

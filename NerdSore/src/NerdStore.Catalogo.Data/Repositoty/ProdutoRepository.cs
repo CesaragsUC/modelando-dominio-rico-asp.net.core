@@ -28,7 +28,10 @@ namespace NerdStore.Catalogo.Data.Repositoty
 
         public async Task<Produto> ObterPorId(Guid id)
         {
-            return await _context.Produtos.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+            //return await _context.Produtos.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+
+            //FindAsync retorna entidade q ja está na memoria do contexto, se naoa char entao vai no banco
+            return await _context.Produtos.FindAsync(id);
         }
 
         public async Task<IEnumerable<Produto>> ObterPorCategoria(int codigo)
@@ -48,6 +51,7 @@ namespace NerdStore.Catalogo.Data.Repositoty
 
         public void Atualizar(Produto produto)
         {
+            //_context.Entry(produto).State = EntityState.Detached;
             _context.Produtos.Update(produto);
         }
 

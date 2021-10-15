@@ -9,7 +9,11 @@
 <div class="row">
     <div class="col-md-4">
         <form asp-action="AtualizarProduto">
-            <div asp-validation-summary="All" class="text-danger"></div>
+
+         @*   pode ser assim pra mostrar sumario de erros ou um component customizado <vc:summary />*@
+            <div asp-validation-summary="All" class="text-danger"></div> 
+
+           @* <vc:summary />*@
 
             <input type="hidden" asp-for="Id" />
 

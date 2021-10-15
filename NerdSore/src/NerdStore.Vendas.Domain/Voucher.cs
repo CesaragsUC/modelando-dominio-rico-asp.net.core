@@ -27,7 +27,14 @@ namespace NerdStore.Vendas.Domain
         {
             return new VoucherAplicavelValidation().Validate(this);
         }
+
+        public void AtualizarQuantidadeVoucher()
+        {
+            Quantidade -= 1;
+        }
     }
+
+
     public class VoucherAplicavelValidation : AbstractValidator<Voucher>
     {
 

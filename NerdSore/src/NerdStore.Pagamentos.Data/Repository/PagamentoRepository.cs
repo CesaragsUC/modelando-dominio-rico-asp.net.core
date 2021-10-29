@@ -1,4 +1,4 @@
-﻿using NerdScore.Core.Data;
+﻿using NerdStore.Core.Data;
 using NerdStore.Pagamentos.Business.Entities;
 using System;
 using System.Collections.Generic;

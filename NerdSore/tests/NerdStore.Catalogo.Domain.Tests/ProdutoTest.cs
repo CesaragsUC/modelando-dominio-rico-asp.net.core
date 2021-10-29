@@ -1,5 +1,5 @@
-using NerdScore.Catalogo.Domain;
-using NerdScore.Core.DomainObjects;
+using NerdStore.Catalogo.Domain;
+using NerdStore.Core.DomainObjects;
 using System;
 using Xunit;
 

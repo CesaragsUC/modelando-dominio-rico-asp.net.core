@@ -20,8 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EventSourcing\EventSourcing.csproj" />
     <ProjectReference Include="..\NerdScore.Catalogo.Domain\NerdScore.Catalogo.Domain.csproj" />
-    <ProjectReference Include="..\NerdScore.Core\NerdScore.Core.csproj" />
+    <ProjectReference Include="..\NerdScore.Core\NerdStore.Core.csproj" />
     <ProjectReference Include="..\NerdStore.Application\NerdStore.Vendas.Application.csproj" />
     <ProjectReference Include="..\NerdStore.Catalogo.Application\NerdStore.Catalogo.Application.csproj" />
     <ProjectReference Include="..\NerdStore.Catalogo.Data\NerdStore.Catalogo.Data.csproj" />

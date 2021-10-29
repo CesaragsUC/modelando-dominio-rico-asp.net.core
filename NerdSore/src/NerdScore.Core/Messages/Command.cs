@@ -2,7 +2,7 @@
 using MediatR;
 using System;
 
-namespace NerdScore.Core.Messages
+namespace NerdStore.Core.Messages
 {
     public abstract class Command : Message,IRequest<bool>
     {

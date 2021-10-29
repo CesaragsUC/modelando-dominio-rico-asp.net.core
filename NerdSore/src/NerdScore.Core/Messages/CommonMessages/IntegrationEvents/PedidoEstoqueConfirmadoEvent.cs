@@ -1,9 +1,9 @@
-﻿using NerdScore.Core.DomainObjects.DTO;
+﻿using NerdStore.Core.DomainObjects.DTO;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.Messages.CommonMessages.IntegrationEvents
+namespace NerdStore.Core.Messages.CommonMessages.IntegrationEvents
 {
     public class PedidoEstoqueConfirmadoEvent : IntegrationEvent
     {

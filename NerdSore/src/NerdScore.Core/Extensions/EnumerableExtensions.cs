@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.Extensions
+namespace NerdStore.Core.Extensions
 {
     public static class EnumerableExtensions
     {

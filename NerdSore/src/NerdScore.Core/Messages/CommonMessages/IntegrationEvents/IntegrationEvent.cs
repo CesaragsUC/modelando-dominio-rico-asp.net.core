@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.Messages.CommonMessages.IntegrationEvents
+namespace NerdStore.Core.Messages.CommonMessages.IntegrationEvents
 {
     public abstract class IntegrationEvent : Event
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.Messages.CommonMessages.Notifications
+namespace NerdStore.Core.Messages.CommonMessages.Notifications
 {
     public class DomainNotification : Message,INotification
     {

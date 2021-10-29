@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NerdScore.Core.Messages.CommonMessages.IntegrationEvents
+namespace NerdStore.Core.Messages.CommonMessages.IntegrationEvents
 {
     public class PedidoPagamentoRecusadoEvent : IntegrationEvent
     {

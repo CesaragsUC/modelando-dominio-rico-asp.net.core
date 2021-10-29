@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NerdScore.Core.Data;
+using NerdStore.Core.Data;
 using NerdStore.Vendas.Domain;
 using System;
 using System.Collections.Generic;

@@ -1,5 +1,5 @@
-﻿using NerdScore.Core.Communication.Mediator;
-using NerdScore.Core.DomainObjects;
+﻿using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.DomainObjects;
 using System.Linq;
 using System.Threading.Tasks;
 

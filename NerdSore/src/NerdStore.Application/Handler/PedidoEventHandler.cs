@@ -1,6 +1,6 @@
 ﻿using MediatR;
-using NerdScore.Core.Communication.Mediator;
-using NerdScore.Core.Messages.CommonMessages.IntegrationEvents;
+using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.Messages.CommonMessages.IntegrationEvents;
 using NerdStore.Vendas.Application.Commands;
 using System.Threading;
 using System.Threading.Tasks;

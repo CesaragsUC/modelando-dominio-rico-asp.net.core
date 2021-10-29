@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using NerdScore.Catalogo.Domain;
-using NerdScore.Catalogo.Domain.Interfaces;
-using NerdScore.Core.DomainObjects;
+using NerdStore.Catalogo.Domain;
+using NerdStore.Catalogo.Domain.Interfaces;
+using NerdStore.Core.DomainObjects;
 using NerdStore.Catalogo.Application.ViewModels;
 using System;
 using System.Collections.Generic;

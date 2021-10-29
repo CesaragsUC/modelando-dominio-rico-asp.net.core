@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NerdScore.Core.Communication.Mediator;
-using NerdScore.Core.Data;
-using NerdScore.Core.Messages;
+using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.Data;
+using NerdStore.Core.Messages;
 using NerdStore.Vendas.Domain;
 using System;
 using System.Linq;

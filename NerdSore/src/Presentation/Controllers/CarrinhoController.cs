@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using NerdScore.Core.Communication.Mediator;
-using NerdScore.Core.Messages.CommonMessages.Notifications;
+using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Application;
 using NerdStore.Catalogo.Application.Services;
 using NerdStore.Vendas.Application.Commands;

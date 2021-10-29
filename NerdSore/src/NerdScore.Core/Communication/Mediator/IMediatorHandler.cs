@@ -1,9 +1,9 @@
-﻿using NerdScore.Core.Messages;
-using NerdScore.Core.Messages.CommonMessages.DomainEvents;
-using NerdScore.Core.Messages.CommonMessages.Notifications;
+﻿using NerdStore.Core.Messages;
+using NerdStore.Core.Messages.CommonMessages.DomainEvents;
+using NerdStore.Core.Messages.CommonMessages.Notifications;
 using System.Threading.Tasks;
 
-namespace NerdScore.Core.Communication.Mediator
+namespace NerdStore.Core.Communication.Mediator
 {
     public interface IMediatorHandler
     {
@@ -13,5 +13,6 @@ namespace NerdScore.Core.Communication.Mediator
         Task PublicarNotificacao<T>(T notificacao) where T : DomainNotification;
 
         Task PublicarDomainEvent<T>(T notificacao) where T : DomainEvents;
+
     }
 }

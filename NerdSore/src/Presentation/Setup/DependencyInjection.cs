@@ -1,13 +1,15 @@
-﻿using MediatR;
+﻿using EventSourcing;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Protocols;
-using NerdScore.Catalogo.Domain;
-using NerdScore.Catalogo.Domain.Events;
-using NerdScore.Catalogo.Domain.Interfaces;
-using NerdScore.Catalogo.Domain.Service;
-using NerdScore.Core.Communication.Mediator;
-using NerdScore.Core.Messages.CommonMessages.IntegrationEvents;
-using NerdScore.Core.Messages.CommonMessages.Notifications;
+using NerdStore.Catalogo.Domain;
+using NerdStore.Catalogo.Domain.Events;
+using NerdStore.Catalogo.Domain.Interfaces;
+using NerdStore.Catalogo.Domain.Service;
+using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.Data.EventSourcing;
+using NerdStore.Core.Messages.CommonMessages.IntegrationEvents;
+using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Application;
 using NerdStore.Catalogo.Application.Services;
 using NerdStore.Catalogo.Data;
@@ -39,8 +41,8 @@ namespace Presentation.Setup
             services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
 
             //// Event Sourcing
-            //services.AddSingleton<IEventStoreService, EventStoreService>();
-            //services.AddSingleton<IEventSourcingRepository, EventSourcingRepository>();
+            services.AddSingleton<IEventStoreService, EventStoreService>();
+            services.AddSingleton<IEventSourceRepository, EventSourceRepository>();
 
             // Catalogo
             services.AddScoped<IProdutoRepository, ProdutoRepository>();

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NerdScore.Core.Data
+namespace NerdStore.Core.Data
 {
     public interface IUnitOfWork
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NerdScore.Catalogo.Domain;
-using NerdScore.Core.Data;
-using NerdScore.Core.Messages;
+using NerdStore.Catalogo.Domain;
+using NerdStore.Core.Data;
+using NerdStore.Core.Messages;
 using System;
 using System.Linq;
 using System.Threading.Tasks;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NerdScore.Catalogo.Domain;
-using NerdScore.Core.Data;
+using NerdStore.Catalogo.Domain;
+using NerdStore.Core.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;

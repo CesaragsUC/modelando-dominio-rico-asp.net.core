@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.DomainObjects
+namespace NerdStore.Core.DomainObjects
 {
     public interface IAggregateRoot
     {

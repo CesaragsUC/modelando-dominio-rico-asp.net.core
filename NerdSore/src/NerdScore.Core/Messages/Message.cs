@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.Messages
+namespace NerdStore.Core.Messages
 {
     public abstract class Message
     {

@@ -1,10 +1,10 @@
 ﻿using MediatR;
-using NerdScore.Core.Communication.Mediator;
-using NerdScore.Core.DomainObjects.DTO;
-using NerdScore.Core.Extensions;
-using NerdScore.Core.Messages;
-using NerdScore.Core.Messages.CommonMessages.IntegrationEvents;
-using NerdScore.Core.Messages.CommonMessages.Notifications;
+using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.DomainObjects.DTO;
+using NerdStore.Core.Extensions;
+using NerdStore.Core.Messages;
+using NerdStore.Core.Messages.CommonMessages.IntegrationEvents;
+using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Application;
 using NerdStore.Vendas.Application.Events;
 using NerdStore.Vendas.Domain;

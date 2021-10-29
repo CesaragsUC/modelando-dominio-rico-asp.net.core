@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.DomainObjects.DTO
+namespace NerdStore.Core.DomainObjects.DTO
 {
     public class ListaProdutosPedido
     {

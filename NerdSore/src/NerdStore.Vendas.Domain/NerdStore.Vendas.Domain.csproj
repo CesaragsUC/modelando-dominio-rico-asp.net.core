@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NerdScore.Core\NerdScore.Core.csproj" />
+    <ProjectReference Include="..\NerdScore.Core\NerdStore.Core.csproj" />
   </ItemGroup>
 
 </Project>

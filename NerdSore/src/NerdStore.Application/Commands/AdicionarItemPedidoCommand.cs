@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using NerdScore.Core.Messages;
+using NerdStore.Core.Messages;
 using System;
 
 namespace NerdStore.Application

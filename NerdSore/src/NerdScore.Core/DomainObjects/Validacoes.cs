@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace NerdScore.Core.DomainObjects
+namespace NerdStore.Core.DomainObjects
 {
     public class Validacoes
     {

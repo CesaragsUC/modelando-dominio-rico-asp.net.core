@@ -1,9 +1,9 @@
-﻿using NerdScore.Core.Messages;
+﻿using NerdStore.Core.Messages;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NerdScore.Core.DomainObjects
+namespace NerdStore.Core.DomainObjects
 {
     public abstract class Entity
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NerdScore.Catalogo.Domain;
+using NerdStore.Catalogo.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;

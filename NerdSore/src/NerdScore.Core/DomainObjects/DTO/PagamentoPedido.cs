@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NerdScore.Core.DomainObjects.DTO
+namespace NerdStore.Core.DomainObjects.DTO
 {
     public class PagamentoPedido
     {

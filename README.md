@@ -3,6 +3,6 @@
 <h1>In this project was used the following patterns::</h1>
 
 * DDD
-* Tests (Simple implemtantion)
+* Tests (Simple implementation)
 * CQRS
 * Event Sourcing

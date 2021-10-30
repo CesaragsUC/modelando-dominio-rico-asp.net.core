@@ -1,7 +1,8 @@
 # modelando-dominio-rico-asp.net.core
 
-Nesse projeto foi abordado os seguintes padrões:
+<h1>In this project was used the following patterns::</h1>
 
--DDD
--Teste (Simples)
--CQRS- Event Sourcing
+* DDD
+* Tests (Simple implemtantion)
+* CQRS
+* Event Sourcing
